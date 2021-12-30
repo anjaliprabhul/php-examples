@@ -1,0 +1,96 @@
+examples:
+$t = 20;
+if($t <= 25){
+	print "hello";
+}
+
+
+$t = 20;
+if($t <= 25){
+	print "hi";
+}
+else {
+	print "hello";
+}
+
+
+$b = 100;
+if ($b <= 50){
+	print " good";
+}
+else if ($b > 50) && ($b < 90){
+	print "very good";
+}
+else {
+	print "excellent";
+}
+
+
+$color = "black";
+switch($color){
+	case "red":
+		print "your fav color is red";
+		break;
+	case "black":
+		print "your fav color is black";
+		break;
+	default: 
+		print "none of these are your fav";
+}
+
+
+$a = 1;
+while($a <= 5){
+	print"the number is :$a"
+	$a++;
+}
+$b = 0;
+while($b <= 100){
+print" the num is : $b";
+$b += 10;
+}
+
+
+$x = 2;
+do{
+	print"the no is $x";
+	$x++;
+}
+while($x <= 5);
+
+
+for($x = 0; $x <= 10; $x++){
+	print " the no is $x";
+}
+
+
+$col = array('aaa', 'bbb', 'ccc');
+foreach($col as $value){
+	print "$value"
+}
+
+
+$age = array("abc"=>"30", "def"=>"40", "ghi"=>"50" );
+foreach( $age as $key => $value){
+	print" $key = $value";
+}
+
+
+for($x = 0; $x < 10; $x++){
+	if($x == 4){
+	break;
+	}
+	print"the no is $x";
+}
+
+
+for($x = 0; $x < 10; $x++){
+	if($x == 4){
+	continue;
+	}
+	print"the no is $x";
+}
+
+
+$col = array("white", "black", "blue");
+echo "I like " . $col[0] . ", " . $col[1] . " and " . $col[2] . ".";
